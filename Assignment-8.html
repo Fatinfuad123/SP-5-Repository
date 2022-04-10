@@ -1,0 +1,118 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster+Two|Nosifer" rel="stylesheet" type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type='text/css'>
+
+<div id="main">
+  <div id="img-div" class="center blur-box">
+    <div  id="title" class="text-animation ">
+        <h1> Attack on Titan </h1>
+    </div>
+    <img id="image" src='//discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/freecodecamp/original/3X/e/7/e7ff1c079403f45549cfb4cf655fec92398ebe87.png' alt="Attack on Titan background"
+            onmouseover="this.src='https://preview.ibb.co/gwFPfp/image.jpg'"
+        onmouseout="this.src='//discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/freecodecamp/original/3X/e/7/e7ff1c079403f45549cfb4cf655fec92398ebe87.png'">
+  
+  <h3> "This world is merciless, and it's also very beautiful." -    Mikasa Ackerman</h3>
+  </div>
+
+  <div id="tribute-info" class="text1 blur-box">
+    <h2>What is Attack on Titan? </h2>
+    <p>Attack on Titan (Japanese: 進撃の巨人 Hepburn: Shingeki no Kyojin, lit. "Advancing Giant") is a Japanese manga series written and illustrated by Hajime Isayama. The series began in Kodansha's Bessatsu Shōnen Magazine on September 9, 2009, and has been collected into 26 tankōbon volumes as of August 2018. It is set in a world where humanity lives in cities surrounded by enormous walls protecting the humans from gigantic humanoids that are referred to as titans. The titans vary in height and endlessly eat humans seemingly without reason.</p>
+  
+    <h2>What is this anime about? </h2>
+    <p>Over 100 years before the beginning of the story on an alternate world, giant humanoid creatures called Titans (巨人 Kyojin) suddenly appeared and nearly wiped out humanity, devouring them without remorse or reason and only targeting them; they completely ignore other wildlife. What remains of humanity now resides within three enormous curtain walls: the outermost is Wall Maria (ウォール・マリア Wōru Maria); the middle wall is Wall Rose (ウォール・ローゼ Wōru Rōze, sometimes pronounced like rosé) and the innermost is Wall Sheena (ウォール・シーナ Wōru Shīna, alt. "Wall Sina"). Inside these walls, humanity has lived in uneasy peace for one hundred years, many people growing up without ever having seen a Titan. This all changes when one day, a giant 60-meter (200 ft)-tall Colossus Titan mysteriously appears after a strike of lightning and breaches the outer wall (which is 50 meters tall) of the Shiganshina district, a town at Wall Maria, allowing the smaller Titans to invade the district. An Armored Titan smashes clean through the gate in Wall Maria, forcing humankind to abandon the land between Wall Maria and Wall Rose, evacuating the remaining population into the inner districts. The sudden influx of population causes turmoil and famine.</p>
+
+    <h2>Titans</h2>
+    <p>The Titans are giant humanoid figures ranging between 3 and 15 meters (10 and 50 ft) tall and are usually masculine in body structure but lack reproductive organs. Although they do not appear to need food, they instinctively attack and eat humans on sight; it is mentioned that they derive their energy from sunlight. Furthermore, the Titans also do not have a proper digestive tract; once they have eaten their fill of human prey, Titans will vomit large, slimy balls, derisively referred to as "hairballs", as shown in the episode where the squad retakes Trost, half of a soldier named Marco is found engulfed in slime with several humans in one of these. Finally, their skin is tough and difficult to penetrate, and they regenerate quickly from injuries, except for a weak spot at the nape of their neck. </p>
+    <h4>If you have time, you should read more about this incredible ANIME!<a href="https://en.wikipedia.org/wiki/Attack_on_Titan" target="_blank">Wikipedia Entry</a>     </h4>
+
+    </div>
+  </div>
+ 
+
+  .blur-box {
+      background-color: #555;
+      box-shadow: 0 0 5px 5px #555;
+  }
+  p{
+    padding-left: 20px;
+    paddinig-right: 20px;
+    max-width: 950px;
+  }
+  h2{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  h4{
+    padding-left: 20px;
+    text-align: center;
+  }
+  p{
+    font-family: 'Raleway', Times New Roman;
+  }
+  .center{
+    /*picture positioning*/
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: center;
+ 
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+    width: 1000px;
+    height: 600px;
+  }
+  .text1{
+    /*Background color*/
+    background-color: rgb(217, 217, 217);
+    /*Moving the text box*/
+    display: block;
+    transform: translate(-50%, 0%);
+    margin-left: 50%;
+    /*Text aligh*/
+    text-align: left;
+    width: 1000px;
+    height: 750px;
+    margin-bottom: 30px;
+  }
+  .text-animation{
+    transform: translate(-50%, 0%);
+    margin-left: 50%;
+    width: 1000px; 
+  }
+  .text-animation h1{
+    margin: 0;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-size: 6em;
+    color: transparent;
+    background-image: url("https://preview.ibb.co/c6F389/atack.png");
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    background-position: 500px 150px; 
+    font-family: arial;
+    animation: bloodAnimate 35s linear infinite;
+  }
+  @keyframes bloodAnimate
+  {
+    0%
+    {
+      background-position: left 0px top 0px;
+     }
+   
+    40%
+    {
+      background-position: left 400px top 0px;
+    }  
+      60%
+    {
+      background-position: left 500px top 0px;
+    }  
+    80%
+    {
+      background-position: left 600px top 0px;
+    }  
+    100%
+    {
+      background-position: left 800px top 0px;
+    }
+  }
